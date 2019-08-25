@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/module.js"],"names":["HeatMapCtrl"],"mappings":";;;;;;AAAQA,MAAAA,W,iBAAAA,W;;;2BAGNA,W","sourcesContent":["import {HeatMapCtrl} from './heatmap_ctrl';\n\nexport {\n  HeatMapCtrl as PanelCtrl\n};\n"],"file":"module.js"}
