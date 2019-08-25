@@ -217,7 +217,7 @@ export class HeatMapCtrl extends MetricsPanelCtrl {
     this.layers[this.panel.defaultLayer].addTo(this.leafMap);
 
     // Add heatmap layer ot map
-    this.heat = L.heatLayer().addTo(this.leafMap);      
+    this.heat = new L.heatLayer().addTo(this.leafMap);      
 
     // Hover marker
     this.hoverMarker = L.circleMarker(L.latLng(0, 0), {
