@@ -268,7 +268,7 @@ System.register(["./leaflet/leaflet.js", "./leaflet/leaflet-heat.js", "moment", 
 
             this.layers[this.panel.defaultLayer].addTo(this.leafMap); // Add heatmap layer ot map
 
-            this.heat = L.heatLayer().addTo(this.leafMap); // Hover marker
+            this.heat = new L.heatLayer().addTo(this.leafMap); // Hover marker
 
             this.hoverMarker = L.circleMarker(L.latLng(0, 0), {
               color: 'white',
